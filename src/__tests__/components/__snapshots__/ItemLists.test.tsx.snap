@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item lists ItemLists snapshot 1`] = `
+<div
+  class="list"
+  data-testid="lists"
+>
+  <div>
+    <h4>
+      Origin list:
+    </h4>
+    <ul>
+      <li>
+        <span>
+          List item 1
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 2
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 3
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 4
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 5
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 6
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 7
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 8
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 9
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h4>
+      Mapped list:
+    </h4>
+    <ul
+      data-testid="list"
+    >
+      <li>
+        <span>
+          List item 1
+        </span>
+        <ul
+          data-testid="list"
+        >
+          <li>
+            <span>
+              List item 5
+            </span>
+          </li>
+          <li>
+            <span>
+              List item 6
+            </span>
+          </li>
+          <li>
+            <span>
+              List item 7
+            </span>
+            <ul
+              data-testid="list"
+            >
+              <li>
+                <span>
+                  List item 8
+                </span>
+              </li>
+              <li>
+                <span>
+                  List item 9
+                </span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <span>
+          List item 2
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 3
+        </span>
+      </li>
+      <li>
+        <span>
+          List item 4
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
